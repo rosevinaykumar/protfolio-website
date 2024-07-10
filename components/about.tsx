@@ -19,10 +19,10 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3 font-medium">
-        I'm full-stack developer with 5 years of experience in developing and
-        maintaining web-based applications. I have good communication skills, am
-        self-motivated, and work well independently or on a team. My greatest
-        motivator is achieving a high level of customer satisfaction by
+        I&apos;m full-stack developer with 5 years of experience in developing
+        and maintaining web-based applications. I have good communication
+        skills, am self-motivated, and work well independently or on a team. My
+        greatest motivator is achieving a high level of customer satisfaction by
         delivering superior performance under pressure and having the ability to
         understand complex problems and find optimum solutions. Strong
         engineering professional graduated from Politecnico di Milano
