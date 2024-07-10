@@ -3,7 +3,7 @@ import Contact from "@/components/contact";
 import Experience from "@/components/experience";
 import Intro from "@/components/intro";
 import Knowledge from "@/components/knowledge";
-import Projects from "@/components/projects";
+//import Projects from "@/components/projects";
 import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
 
