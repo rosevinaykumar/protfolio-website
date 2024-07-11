@@ -41,7 +41,7 @@ export const experiencesData = [
     description:
       "I worked as Full-stack developer for the client European Parliament of Luxembourg and Beligium.",
     icon: React.createElement(LuLandmark),
-    date: " 2019 - 2021",
+    date: "2019 - 2021",
   },
   {
     title: "Senior software Developer",
@@ -49,7 +49,7 @@ export const experiencesData = [
     description:
       "I worked as a Senior Software developer for the client Nexi Banca.",
     icon: React.createElement(LuPiggyBank),
-    date: " 2017 - 2018",
+    date: "2017 - 2018",
   },
   {
     title: "Full-Stack Developer",
@@ -97,32 +97,17 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
-  "Next.js",
   "Git",
-  "Tailwind",
-  "MongoDB",
-  "Redux",
-  "PostgreSQL",
-  "Framer Motion",
+  "Jenkins",
+  "Maven",
 ] as const;
 
 export const knowledgeData = [
-  "Java",
-  "Spring",
-  "Spring Boot",
-  "Hibernate",
-  "Rest API",
-  "Spring MVC",
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
   "Next.js",
-  "Git",
   "Tailwind",
-  "MongoDB",
-  "Redux",
-  "PostgreSQL",
   "Framer Motion",
+  "Docker",
+  "Microservices",
+  "MongoDB",
+  "PostgreSQL",
 ] as const;

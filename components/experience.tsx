@@ -28,7 +28,7 @@ export default function Experience() {
                 boxShadow: "none",
                 border: "1px solid rgba(0, 0, 0, 0.05)",
                 textAlign: "left",
-                padding: "2rem 2rem",
+                padding: "1.3rem 2rem",
                 visibility: "visible",
               }}
               contentArrowStyle={{
@@ -48,9 +48,11 @@ export default function Experience() {
               }}
             >
               <h3 className="font-semibold capitalize visible">{item.title}</h3>
-              <p className="font-normal !mt-0 visible">{item.location}</p>
+              <p className="font-normal !mt-0 visible">
+                <span>{item.location}</span>
+              </p>
               <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75 visible">
-                {item.description}
+                <span>{item.description}</span>
               </p>
             </VerticalTimelineElement>
           </React.Fragment>
