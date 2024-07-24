@@ -67,7 +67,7 @@ export default function Intro() {
           Hello, I&apos;m Rose Vinay Kumar Yelluri.
         </span>{" "}
         I&apos;m a <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">5 years</span> of experience. I enjoy
+        <span className="font-bold">5+ years</span> of experience. I enjoy
         building web applications. My focus is{" "}
         <span className="underline">Java (Spring)</span>.
       </motion.h1>
@@ -94,7 +94,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV-VINAY YELLURI.pdf"
+          href="/CV_VINAY_YELLURI.pdf"
           download
         >
           Download CV{" "}
@@ -103,7 +103,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/yelluri-rose-vinay-kumar-04621798/"
+          href="https://www.linkedin.com/in/rose-vinay-kumar-y-04621798/"
           target="_blank"
         >
           <BsLinkedin />

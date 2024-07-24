@@ -18,8 +18,8 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3 font-medium">
-        I&apos;m full-stack developer with 5 years of experience in developing
+      <p className="mb-3 text-lg">
+        I&apos;m full-stack developer of experience in developing
         and maintaining web-based applications. I have good communication
         skills, am self-motivated, and work well independently or on a team. My
         greatest motivator is achieving a high level of customer satisfaction by

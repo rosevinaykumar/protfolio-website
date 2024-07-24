@@ -89,17 +89,18 @@ export const skillsData = [
   "Java",
   "Spring",
   "Spring Boot",
+  "Spring MVC",
+  "JPA",
   "Hibernate",
   "Rest API",
-  "Spring MVC",
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
   "React",
   "Git",
   "Jenkins",
   "Maven",
+  "Aglie",
 ] as const;
 
 export const knowledgeData = [
