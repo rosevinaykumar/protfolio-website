@@ -19,14 +19,14 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3 text-lg">
-        I&apos;m full-stack developer of experience in developing
-        and maintaining web-based applications. I have good communication
-        skills, am self-motivated, and work well independently or on a team. My
-        greatest motivator is achieving a high level of customer satisfaction by
-        delivering superior performance under pressure and having the ability to
-        understand complex problems and find optimum solutions. Strong
-        engineering professional graduated from Politecnico di Milano
-        University, Italy.
+        I&apos;m a full-stack developer with experience in developing and
+        maintaining web-based applications. I possess strong communication
+        skills, am self-motivated, and excel in both independent and team
+        environments. My greatest motivator is achieving a high level of
+        customer satisfaction by delivering superior performance under pressure.
+        I have a proven ability to understand complex problems and find optimal
+        solutions. I am a strong engineering professional, graduated from
+        Politecnico di Milano University, Italy.
       </p>
     </motion.section>
   );

@@ -17,17 +17,18 @@ export const links = [
   //   hash: "#projects",
   // },
   {
-    name: "Skills",
-    hash: "#skills",
-  },
-  {
-    name: "Knowledge",
-    hash: "#knowledge",
-  },
-  {
     name: "Experience",
     hash: "#experience",
   },
+  {
+    name: "Tech Stack",
+    hash: "#techStack",
+  },
+  {
+    name: "Skills",
+    hash: "#skills",
+  },
+
   {
     name: "Contact",
     hash: "#contact",
@@ -55,7 +56,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Monza, Italy",
     description:
-      "I worked as a Software developer for the Client Generali Italia - Insurance.",
+      "I worked as a Software developer for the Client Generali Insurance.",
     icon: React.createElement(LuCoins),
     date: "2014 - 2016",
   },
@@ -85,7 +86,7 @@ export const experiencesData = [
 //   },
 // ] as const;
 
-export const skillsData = [
+export const techStackData = [
   "Java",
   "Spring",
   "Spring Boot",
@@ -103,7 +104,7 @@ export const skillsData = [
   "Aglie",
 ] as const;
 
-export const knowledgeData = [
+export const skillsData = [
   "Next.js",
   "Tailwind",
   "Framer Motion",

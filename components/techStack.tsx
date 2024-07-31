@@ -2,7 +2,7 @@
 
 import React from "react";
 import SectionHeading from "./section-heading";
-import { knowledgeData } from "@/lib/data";
+import { techStackData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
 
@@ -20,18 +20,18 @@ const fadeInAnimationVariants = {
   }),
 };
 
-export default function Knowledge() {
-  const { ref } = useSectionInView("Knowledge");
+export default function TechStack() {
+  const { ref } = useSectionInView("Tech Stack");
 
   return (
     <section
-      id="knowledge"
+      id="techStack"
       ref={ref}
       className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
     >
-      <SectionHeading>My Knowledge</SectionHeading>
+      <SectionHeading>Tech Stack</SectionHeading>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
-        {knowledgeData.map((knowledge, index) => (
+        {techStackData.map((stack, index) => (
           <motion.li
             className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
             key={index}
@@ -43,7 +43,7 @@ export default function Knowledge() {
             }}
             custom={index}
           >
-            {knowledge}
+            {stack}
           </motion.li>
         ))}
       </ul>

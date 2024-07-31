@@ -66,10 +66,11 @@ export default function Intro() {
         <span className="font-bold">
           Hello, I&apos;m Rose Vinay Kumar Yelluri.
         </span>{" "}
-        I&apos;m a <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">5+ years</span> of experience. I enjoy
-        building web applications. My focus is{" "}
-        <span className="underline">Java (Spring)</span>.
+        I&apos;m a <span className="font-bold">full-stack developer</span> with
+        over <span className="font-bold">5 years</span> of experience in
+        building web applications. My primary focus is{" "}
+        <span className="underline">Java (Spring)</span>, and I enjoy creating
+        efficient and scalable solutions.
       </motion.h1>
 
       <motion.div
